@@ -11,8 +11,8 @@ metadata:
   generation: 1
   labels:
     app: argoapp
-  name: argoapp
-  namespace: nanaproj
+  name: myweb
+  namespace: myweb
   resourceVersion: "69908"
   uid: 62e240ed-b283-418f-8a50-130637a32ee2
 spec:
