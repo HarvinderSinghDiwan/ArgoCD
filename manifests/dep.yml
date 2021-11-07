@@ -4,7 +4,7 @@ metadata:
   name: webserver
   namespace: webserver
 spec:
-  replicas: 2
+  replicas: 8
   selector:
     matchLabels:
       app: webapp
