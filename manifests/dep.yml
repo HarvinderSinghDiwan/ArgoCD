@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webserver
+  namespace: webserver
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: webapp
+  template:
+    metadata:
+      name: httpapp
+      labels:
+        app: webapp
+    spec:
+      containers:
+        - image: vimal13/apache-webserver-php
+          name: mycontainerofphp
