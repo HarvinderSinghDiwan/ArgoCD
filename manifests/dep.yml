@@ -1,7 +1,7 @@
 apiVersion: apps/v1
-kind: {}
+kind: Deployment
 metadata:
-  name: deletedapp
+  name: {}
   namespace: webserver
 spec:
   replicas: 3
