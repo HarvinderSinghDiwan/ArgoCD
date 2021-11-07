@@ -34,7 +34,7 @@ spec:
         app: argoapp
     spec:
       containers:
-      - image: vimal13/apache-webserver-php
+      - image: vimal13/grafana
         imagePullPolicy: IfNotPresent
         name: argocd-app
         resources: {}
