@@ -12,7 +12,7 @@ metadata:
   labels:
     app: argoapp
   name: argoapp
-  namespace: default
+  namespace: nanaproj
   resourceVersion: "69908"
   uid: 62e240ed-b283-418f-8a50-130637a32ee2
 spec:
@@ -34,7 +34,7 @@ spec:
         app: argoapp
     spec:
       containers:
-      - image: nanajanashia/argocd-app:1.0
+      - image: nanajanashia/argocd-app:2.0
         imagePullPolicy: IfNotPresent
         name: argocd-app
         resources: {}
